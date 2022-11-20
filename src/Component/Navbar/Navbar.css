@@ -31,3 +31,20 @@
 .navbar__abas.ativo{
     border-bottom: 3px solid #1877F2;
 }
+
+.navbar__abadireita{
+    display: flex;
+    margin-left: 40px;
+}
+
+.navbar__imgdireita{
+    margin-top: 15px;
+    margin-right: 10px;
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.navbar__nome{
+    margin-top: 20px;
+    font-weight: 680;
+}

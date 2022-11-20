@@ -7,6 +7,7 @@ import pagina from '../../img/pages.svg';
 import assistir from '../../img/watch.svg';
 import mercado from '../../img/market.svg';
 import grupo from '../../img/groups.svg';
+import { Avatar } from '@mui/material';
 
 class Navbar extends Component {
     state = {  }
@@ -40,7 +41,12 @@ class Navbar extends Component {
                         </div>
                     </Grid>
                     <Grid item xs ={3}>
-                        Navegação de perfil
+                        <div className='navbar__direita'>
+                            <div className='navbar__abadireita'>
+                                <Avatar className='navbar__imgdireita'/>
+                                <div className='navbar__nome'>Bruna</div>
+                            </div>
+                        </div>
                     </Grid>
                 </Grid>
             </div>
