@@ -10,7 +10,6 @@ import grupo from '../../img/groups.svg';
 import { Avatar } from '@mui/material';
 
 class Navbar extends Component {
-    state = {  }
     render() { 
         return (  
             <div>
