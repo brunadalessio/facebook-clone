@@ -43,7 +43,7 @@ class Navbar extends Component {
                         <div className='navbar__direita'>
                             <div className='navbar__abadireita'>
                                 <Avatar className='navbar__imgdireita'/>
-                                <div className='navbar__nome'>Bruna</div>
+                                <div className='navbar__nome'>Bruna D'Aléssio</div>
                             </div>
                         </div>
                     </Grid>
