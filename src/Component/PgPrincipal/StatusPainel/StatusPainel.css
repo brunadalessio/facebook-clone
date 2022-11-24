@@ -1,0 +1,12 @@
+.statuspainel_container{
+    display: flex;
+    width: 720px;
+    overflow-x: scroll;
+}
+
+.statuspainel_status{
+    height: 200px;
+    width: 110px;
+    margin: 20px 5px;
+    border-radius: 15px;
+}
