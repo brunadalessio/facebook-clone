@@ -1,7 +1,7 @@
 .statuspainel_container{
     display: flex;
-    width: 720px;
-    overflow-x: scroll;
+    width: 600px;
+    /* overflow-x: scroll; */
 }
 
 .statuspainel_status{

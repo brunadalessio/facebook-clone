@@ -11,8 +11,8 @@ class StatusPainel extends Component {
                 <Status/>
                 <Status/>
                 <Status/>
-                <Status/>
-                <Status/>
+                {/* <Status/>
+                <Status/> */}
             </div>
          );
     }

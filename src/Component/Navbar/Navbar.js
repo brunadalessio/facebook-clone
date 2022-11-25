@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import './Navbar.css';
-import {Grid} from '@mui/material';
 import fblogo from '../../img/logo.png';
 import inicio from '../../img/home.svg';
 import pagina from '../../img/pages.svg';
 import assistir from '../../img/watch.svg';
 import mercado from '../../img/market.svg';
 import grupo from '../../img/groups.svg';
-import { Avatar } from '@mui/material';
+import { Avatar, Grid } from '@mui/material';
 
 class Navbar extends Component {
     render() { 

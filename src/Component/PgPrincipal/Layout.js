@@ -2,6 +2,7 @@ import { Grid } from '@mui/material';
 import React, { Component } from 'react'; // imrc
 import LadoEsquerdo from './PainelEsquerdo/LadoEsquerdo';
 import './PgPrincipal.css';
+import Postagens from './Postagens/Postagens';
 import StatusPainel from './StatusPainel/StatusPainel';
 // ccc
 class PgPrincipal extends Component {
@@ -14,9 +15,10 @@ class PgPrincipal extends Component {
                     </Grid>
                     <Grid item xs={6} className='meio__container'>
                         <StatusPainel/>
+                        <Postagens/>
                     </Grid>
                     <Grid item xs={3}>
-                    Direita
+                        Contatos
                     </Grid>
                 </Grid>
             </div>

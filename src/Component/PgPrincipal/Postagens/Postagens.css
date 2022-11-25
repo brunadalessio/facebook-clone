@@ -1,0 +1,48 @@
+.carregar__container{
+    height: 120px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.carregar_topo{
+    display: flex;
+}
+
+.carregar__imagem{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.carregar__postagem{
+    height: 40px;
+    width: 480px;
+    border: 0px;
+    background-color: #EFF2F5;
+    border-radius: 30px;
+    font-size: 16px;
+    padding-left: 20px;
+    margin: 15px;
+}
+
+.carregar__botao{
+    border-top: 1px solid #E3E6EA;
+    display: flex;
+    margin-left: 65px;
+    padding-top: 5px;
+}
+
+.carregar__abas{
+    width: 150px;
+    display: flex;
+}
+
+.carregar__abameio{
+    width: 140px;
+    display: flex;
+    padding-left: 15px;
+}
+
+.carregar__texto{
+    margin: 5px;
+    font-size: 15px;
+}
