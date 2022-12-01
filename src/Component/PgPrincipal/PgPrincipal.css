@@ -1,7 +1,6 @@
 .pgprincipal__container{
-    height: 650px;
+    height: 912px;
     background-color: #EFF2F5;
-
 }
 
 .imglayout__container{
@@ -26,4 +25,15 @@
 
 .meio__container{
     margin-left: 120px !important;
+    overflow-y: scroll;
+    height: 870px;
+    /* Esconder scrollbar para Firefox, IE e Edge*/
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
 }
+
+/* Esconder scrollbar para Chrome, Safari e Opera */
+.meio__container::-webkit-scrollbar {
+    display: none;
+}
+

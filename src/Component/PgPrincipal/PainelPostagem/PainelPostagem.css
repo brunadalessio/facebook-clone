@@ -1,0 +1,51 @@
+.postagem__container{
+    width: 600px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.postagem__header{
+    display: flex;
+    height: 65px;
+}
+
+.postagem__header_img{
+
+}
+
+.postagem__pp{
+    margin: 15px;
+}
+
+.postagem__header_texto{
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.postagem__descricao{
+    display: flex;
+    margin-left: 15px;
+}
+
+.postagem__imagem{
+    margin: 10px 0px;
+}
+
+.postagem__curtidas{
+    display: flex;
+    height: 40px;
+    padding: 0px 10px;
+}
+
+.postagem__icone{
+    height: 20px;
+}
+
+.postagem__curtida{
+
+}
+
+.postagem__contagem{
+    margin-left: 5px;
+}
