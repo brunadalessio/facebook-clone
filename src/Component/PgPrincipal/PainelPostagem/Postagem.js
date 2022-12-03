@@ -13,12 +13,12 @@ class Postagem extends Component {
                         <Avatar className='postagem__pp'/>
                     </div>
                     <div className='postagem__header_texto'>
-                        Bruna D'Aléssio
+                        {this.props.obj.usuario_nome}
                     </div>
                 </div>
                 {/* Descrição */}
                 <div className='postagem__descricao'>
-                    Bom dia!
+                    {this.props.obj.descricao}
                 </div>
                 {/* Imagem da Postagem */}
                 <div className='postagem__imagem'>
@@ -30,7 +30,7 @@ class Postagem extends Component {
                         <img className='postagem__icone' alt='Curtir' src={curtir}/>
                     </div>
                     <div className='postagem__contagem'>
-                        14
+                        {this.props.obj.curtida}
                     </div>
                 </div>
                 {/* Compartilhamento */}
