@@ -22,7 +22,7 @@ class LadoEsquerdo extends Component {
     getData=()=>{
         let jsondata = [
             {
-                "imagem": "",
+                "imagem": "https://64.media.tumblr.com/43b36406ea6f361d5d4f1bb617c36082/1d79c88cfa825fe5-2a/s640x960/74cdf0058b070fd609a47cd42fcbf00dbb0c96d4.jpg",
                 "texto": "Bruna D'Aléssio"
             },
             {

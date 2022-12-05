@@ -10,7 +10,7 @@ class ImgLayout extends Component {
                     <Avatar className='imglayout__img' src={this.props.imagem}/>
                 </div>
                 <div className='imglayout__texto'>
-                {this.props.texto}
+                    {this.props.texto}
                 </div>
             </div>
          );
