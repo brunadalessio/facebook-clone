@@ -1,6 +1,7 @@
 import { Grid } from '@mui/material';
 import React, { Component } from 'react'; // imrc
 import LadoEsquerdo from './PainelEsquerdo/LadoEsquerdo';
+import LadoDireito from './PainelDireito/LadoDireito';
 import PainelPostagem from './PainelPostagem/PainelPostagem';
 import './PgPrincipal.css';
 import Postagens from './Postagens/Postagens';
@@ -20,7 +21,7 @@ class PgPrincipal extends Component {
                         <PainelPostagem/>
                     </Grid>
                     <Grid item xs={3}>
-                        
+                        <LadoDireito/>
                     </Grid>
                 </Grid>
             </div>

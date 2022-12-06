@@ -34,17 +34,17 @@
 
 .navbar__abadireita{
     display: flex;
-    margin-left: 40px;
+    float: right;
 }
 
 .navbar__imgdireita{
-    margin-top: 15px;
+    margin-top: 10px;
     margin-right: 10px;
-    max-width: 30px;
-    max-height: 30px;
+    max-width: 50px;
+    max-height: 50px;
 }
 
-.navbar__nome{
+/* .navbar__nome{
     margin-top: 20px;
     font-weight: 680;
-}
+} */

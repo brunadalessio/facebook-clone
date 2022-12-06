@@ -20,7 +20,7 @@
 }
 
 .meio__container{
-    margin-left: 120px !important;
+    padding-left: 120px !important;
     overflow-y: scroll;
     height: 912px;
     /* Esconder scrollbar para Firefox, IE e Edge*/

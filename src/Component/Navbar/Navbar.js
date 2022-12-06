@@ -6,6 +6,9 @@ import pagina from '../../img/pages.svg';
 import assistir from '../../img/watch.svg';
 import mercado from '../../img/market.svg';
 import grupo from '../../img/groups.svg';
+import notificacao from '../../img/notif.png';
+import dm from '../../img/dm.png';
+import menu from '../../img/menu.png';
 import { Avatar, Grid } from '@mui/material';
 
 class Navbar extends Component {
@@ -41,8 +44,11 @@ class Navbar extends Component {
                     <Grid item xs ={3}>
                         <div className='navbar__direita'>
                             <div className='navbar__abadireita'>
+                                <Avatar src={menu} className='navbar__imgdireita'/>
+                                <Avatar src={dm} className='navbar__imgdireita'/>
+                                <Avatar src={notificacao} className='navbar__imgdireita'/>
                                 <Avatar src='https://64.media.tumblr.com/43b36406ea6f361d5d4f1bb617c36082/1d79c88cfa825fe5-2a/s640x960/74cdf0058b070fd609a47cd42fcbf00dbb0c96d4.jpg'className='navbar__imgdireita'/>
-                                <div className='navbar__nome'>Bruna</div>
+                                {/* <div className='navbar__nome'></div> */}
                             </div>
                         </div>
                     </Grid>
